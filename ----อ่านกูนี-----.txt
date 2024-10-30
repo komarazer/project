@@ -1,0 +1,7 @@
+ท่าxxmap เกิดระเบิดขึ้น ในทำตามนี้ 
+สร้าง server_shop ขึ้นมา
+รัน php artisan migrate
+   php artisan db:seed --class=RolesTableSeeder
+   php artisan db:seed --class=UsersTableSeeder
+รัน php artisan migrate ไฟล์เดียว
+   php artisan migrate --path=/database/migrations/ชื่อไฟล์_migration.php
